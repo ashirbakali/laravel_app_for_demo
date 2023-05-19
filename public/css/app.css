@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);@media only screen and (-webkit-min-device-pixel-ratio: 1.21875) and (-webkit-max-device-pixel-ratio: 1.2395833333333333), only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi), only screen and (-webkit-min-device-pixel-ratio: 1.3645833333333333) and (-webkit-max-device-pixel-ratio: 1.3854166666666667), only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5104166666666667) and (-webkit-max-device-pixel-ratio: 1.6041666666666667), only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi), only screen and (-webkit-min-device-pixel-ratio: 1.6875) and (-webkit-max-device-pixel-ratio: 1.7083333333333333), only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi), only screen and (-webkit-min-device-pixel-ratio: 1.7604166666666667), only screen and (min-resolution: 169dpi) {
+  .bottom-panel-td > .row > div {
+    flex: 1;
+  }
+
+  .bottom-panel-td > .row > div:nth-child(1) * {
+    float: left !important;
+    text-align: left;
+  }
+
+  .bottom-panel-td > .row {
+    display: flex !important;
+  }
+
+  .total-data {
+    padding-right: 15px;
+  }
+
+  .labeled-items-table thead {
+    display: none;
+  }
+
+  .labeled-items-table > * {
+    width: 100%;
+  }
+
+  .labeled-items-table tr {
+    display: block;
+    background: #fff !important;
+    width: 100%;
+    border: 1px solid #eaeaea;
+    border-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .labeled-items-table tr td {
+    width: 100%;
+    display: block;
+  }
+
+  .labeled-items-table tr td:before {
+    content: attr(data-label);
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: 600;
+  }
+}
+
